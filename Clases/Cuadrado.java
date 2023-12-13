@@ -1,6 +1,14 @@
 public class Cuadrado {
 
-    public int lado;
+    private int lado;
+
+    public int getLado() {
+        return lado;
+    }
+
+    public void setLado(int nuevoLado) {
+        lado = nuevoLado;
+    }
 
     public double areaCuadrado(){
         double area;
