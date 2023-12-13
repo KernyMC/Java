@@ -4,21 +4,17 @@ public class TestProducto {
         Producto productoB = new Producto();
         Producto productoC = new Producto();
 
-        productoA.nombre = "Colirio";
-        productoA.descripcion = "Gotas para los ojos";
-        productoA.precio = 100;
-        productoA.stockActual = 10;
+        productoA.setNombre("Coca Cola");
+        productoA.setDescripcion("Gaseosa de cola");
+        productoA.setPrecio(20);
 
-        productoB.nombre = "Aspirina";
-        productoB.descripcion = "Pastillas para el dolor";
-        productoB.precio = 50;
-        productoB.stockActual = 20;
+        productoB.setNombre("Pepsi");
+        productoB.setDescripcion("Gaseosa de cola");
+        productoB.setPrecio(18);
 
-        productoC.nombre = "Alcohol en gel";
-        productoC.descripcion = "Gel antibacterial";
-        productoC.precio = 150;
-        productoC.stockActual = 5;
-    
+        productoC.setNombre("Sprite");
+        productoC.setDescripcion("Gaseosa de lima limon");
+        productoC.setPrecio(18);
 
     }
 }

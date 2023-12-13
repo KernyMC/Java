@@ -1,6 +1,40 @@
 public class Producto {
-    public String nombre;
-    public String descripcion;
-    public float precio;
-    public int stockActual;
+    private String nombre;
+    private String descripcion;
+    private float precio;
+    private int stockActual;
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public float getPrecio() {
+        return precio;
+    }
+
+    public int getStockActual() {
+        return stockActual;
+    }
+
+    public void setNombre(String nuevoNombre) {
+        nombre = nuevoNombre;
+    }
+
+    public void setDescripcion(String nuevaDescripcion) {
+        descripcion = nuevaDescripcion;
+    }
+
+    public void setPrecio(float nuevoPrecio) {
+        precio = nuevoPrecio;
+    }
+
+    public void setStockActual(int nuevoStockActual) {
+        stockActual = nuevoStockActual;
+    }
+
+    
 }
