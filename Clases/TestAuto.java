@@ -4,14 +4,15 @@ public class TestAuto {
         
         Auto auto1 = new Auto();
         Auto auto2 = new Auto();
-        auto1.marca = "Ford";
-        auto1.anio = 2010;
-        auto1.precio = 100000;
-
-        auto2.marca = "Chevrolet";
-        auto2.anio = 2015;
-        auto2.precio = 150000;
-
+  
+        auto1.setMarca("Ford");
+        auto1.setAnio(2017);
+        auto1.setPrecio(100000);
+        
+        auto2.setMarca("Fiat");
+        auto2.setAnio(2016);
+        auto2.setPrecio(90000);
+        
     }
     
 }
