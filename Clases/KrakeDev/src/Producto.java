@@ -36,5 +36,10 @@ public class Producto {
         stockActual = nuevoStockActual;
     }
 
-    
+    public Producto(String nombre, String descripcion, float precio, int stockActual) {
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+        this.precio = precio;
+        this.stockActual = stockActual;
+    }
 }
