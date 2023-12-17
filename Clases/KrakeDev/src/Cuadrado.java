@@ -21,4 +21,7 @@ public class Cuadrado {
         return perimetro;
     }
 
+    public Cuadrado(int lado) {
+        this.lado = lado;
+    }
 }
