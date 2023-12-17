@@ -4,7 +4,7 @@ public class TestCuadrado {
         Cuadrado c1 = new Cuadrado(5);
         Cuadrado c2 = new Cuadrado(10);
         Cuadrado c3 = new Cuadrado(15);
-        
+
         double areaC1 = c1.areaCuadrado();
         double areaC2 = c2.areaCuadrado();
         double areaC3 = c3.areaCuadrado();

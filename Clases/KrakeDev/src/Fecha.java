@@ -24,4 +24,12 @@ public class Fecha {
     public void setDia(int nuevoDia) {
         dia = nuevoDia;
     }
+
+    public Fecha(int anio, int mes, int dia) {
+        this.anio = anio;
+        this.mes = mes;
+        this.dia = dia;
+    }
+
+
 }
