@@ -25,5 +25,11 @@ public class Auto {
     public void setPrecio(float nuevoPrecio) {
         precio = nuevoPrecio;
     }
-    
+
+    public Auto(String marca, int anio, float precio) {
+        this.marca = marca;
+        this.anio = anio;
+        this.precio = precio;
+    }
+
 }
