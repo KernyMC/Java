@@ -1,21 +1,9 @@
 public class TestPersona {
     public static void main(String[] args) {
-        Persona personaA = new Persona();
-        Persona personaB = new Persona();
-        Persona personaC = new Persona();
-
-        personaA.setNombre("Juan");
-        personaA.setEdad(20);
-        personaA.setEstatura(1.80);
-
-        personaB.setNombre("Pedro");
-        personaB.setEdad(30);
-        personaB.setEstatura(1.65);
-
-        personaC.setNombre("Maria");
-        personaC.setEdad(25);
-        personaC.setEstatura(1.70);
-
+        Persona personaA = new Persona("Juan", 20, 1.80);
+        Persona personaB = new Persona(" Pedro", 30, 1.65);
+        Persona personaC = new Persona("Maria", 25, 1.70);
+        
         System.out.println("Nombre: " + personaA.getNombre());
         System.out.println("Edad: " + personaA.getEdad());
         System.out.println("Estatura: " + personaA.getEstatura());

@@ -27,6 +27,10 @@ public class Persona {
          estatura = nuevaEstatura;
     }
 
-
+    public Persona(String nombre, int edad, double estatura) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.estatura = estatura;
+    }
 
 }
