@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Clases.iml" filepath="$PROJECT_DIR$/Clases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KrakeDev/Directorio/Directorio.iml" filepath="$PROJECT_DIR$/KrakeDev/Directorio/Directorio.iml" />
       <module fileurl="file://$PROJECT_DIR$/KrakeDev/KrakeDev.iml" filepath="$PROJECT_DIR$/KrakeDev/KrakeDev.iml" />
       <module fileurl="file://$PROJECT_DIR$/KrakeDev/Repaso/Repaso.iml" filepath="$PROJECT_DIR$/KrakeDev/Repaso/Repaso.iml" />
     </modules>
