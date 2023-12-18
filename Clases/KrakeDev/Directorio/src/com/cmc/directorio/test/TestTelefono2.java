@@ -8,6 +8,6 @@ public class TestTelefono2 {
         Telefono telf = new Telefono(20, "movi", "098234234");
         AdminTelefono at = new AdminTelefono();
         at.activarMensajeria(telf);
-        telf.imprimir();
+        System.out.println(telf.isTieneWhatsapp());
     }
 }

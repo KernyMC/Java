@@ -7,20 +7,34 @@ public class AdminTelefono {
         }
     }
 
-    public int contarMovi(Telefono tel1, Telefono tel2, Telefono tel3) {
+    public int contarMovi(Telefono t1, Telefono t2, Telefono t3) {
         int count = 0;
-        if ("movi".equals(tel1.getOperadora())) count++;
-        if ("movi".equals(tel2.getOperadora())) count++;
-        if ("movi".equals(tel3.getOperadora())) count++;
+        if ("movi".equals(t1.getOperadora())) {
+            count++;
+        }
+        if ("movi".equals(t2.getOperadora())) {
+            count++;
+        }
+        if ("movi".equals(t3.getOperadora())) {
+            count++;
+        }
         return count;
     }
 
-    public int contarClaro(Telefono tel1, Telefono tel2, Telefono tel3, Telefono tel4) {
+    public int contarClaro(Telefono t1, Telefono t2, Telefono t3, Telefono t4) {
         int count = 0;
-        if ("claro".equals(tel1.getOperadora())) count++;
-        if ("claro".equals(tel2.getOperadora())) count++;
-        if ("claro".equals(tel3.getOperadora())) count++;
-        if ("claro".equals(tel4.getOperadora())) count++;
+        if ("claro".equals(t1.getOperadora())) {
+            count++;
+        }
+        if ("claro".equals(t2.getOperadora())) {
+            count++;
+        }
+        if ("claro".equals(t3.getOperadora())) {
+            count++;
+        }
+        if ("claro".equals(t4.getOperadora())) {
+            count++;
+        }
         return count;
     }
 }
