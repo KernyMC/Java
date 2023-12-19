@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/KrakeDev/Cartas/Cartas.iml" filepath="$PROJECT_DIR$/KrakeDev/Cartas/Cartas.iml" />
       <module fileurl="file://$PROJECT_DIR$/Clases.iml" filepath="$PROJECT_DIR$/Clases.iml" />
       <module fileurl="file://$PROJECT_DIR$/KrakeDev/Directorio/Directorio.iml" filepath="$PROJECT_DIR$/KrakeDev/Directorio/Directorio.iml" />
       <module fileurl="file://$PROJECT_DIR$/KrakeDev/Evaluacion1KevinVargas/Evaluacion1KevinVargas.iml" filepath="$PROJECT_DIR$/KrakeDev/Evaluacion1KevinVargas/Evaluacion1KevinVargas.iml" />
       <module fileurl="file://$PROJECT_DIR$/KrakeDev/EvaluacionKVPA/EvaluacionKVPA.iml" filepath="$PROJECT_DIR$/KrakeDev/EvaluacionKVPA/EvaluacionKVPA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KrakeDev/JavaKevinVargas/JavaKevinVargas.iml" filepath="$PROJECT_DIR$/KrakeDev/JavaKevinVargas/JavaKevinVargas.iml" />
       <module fileurl="file://$PROJECT_DIR$/KrakeDev/KrakeDev.iml" filepath="$PROJECT_DIR$/KrakeDev/KrakeDev.iml" />
       <module fileurl="file://$PROJECT_DIR$/KrakeDev/Notas/Notas.iml" filepath="$PROJECT_DIR$/KrakeDev/Notas/Notas.iml" />
       <module fileurl="file://$PROJECT_DIR$/KrakeDev/Repaso/Repaso.iml" filepath="$PROJECT_DIR$/KrakeDev/Repaso/Repaso.iml" />
