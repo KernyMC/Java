@@ -43,7 +43,7 @@ public class Juego {
 
     public int determinarGanador() {
         int idGanador = 0;
-        int sumaGanador = devolverTotal(0);
+        int sumaGanador = devolverTotal(idGanador);
 
         for (int i = 1; i < cartasJugadores.size(); i++) {
             int sumaJugador = devolverTotal(i);
@@ -53,7 +53,7 @@ public class Juego {
             }
         }
 
-        return idGanador;
+        return idGanador + 1;
     }
 
 }

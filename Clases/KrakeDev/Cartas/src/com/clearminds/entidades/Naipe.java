@@ -1,7 +1,7 @@
 package com.clearminds.entidades;
 
 import java.util.ArrayList;
-import com.clearminds.util.Random;
+import com.clearminds.entidades.Random;
 public class Naipe {
     private ArrayList<Numero> numerosPosibles;
     private ArrayList<Carta> cartas;

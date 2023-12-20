@@ -1,4 +1,4 @@
-package com.clearminds.util;
+package com.clearminds.entidades;
 
 public class Random {
     public static int obtenerPosicion() {
